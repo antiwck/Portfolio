@@ -1,0 +1,162 @@
+﻿#logo_border {
+	padding-top: 10px;
+	width: 1080px;
+}
+
+#title {
+	font-family: "Trebuchet MS";
+	font-weight:bold;
+	font-size: 50px;
+	text-align: center;
+	padding-bottom: 50px;
+}
+
+#matlab_logo {
+	padding-left: 100px;
+	width: 100px;
+	height: 100px;
+	float:left;
+}
+
+#labview_logo {
+	padding-left: 100px;
+	width: 100px;
+	height: 100px;
+	float:left;
+}
+
+#ltspice_logo {
+	padding-left: 100px;
+	width: 100px;
+	height: 100px;
+	float:left;
+}
+
+#solidworks_logo {
+	padding-left: 100px;
+	width: 100px;
+	height: 100px;
+	float:left;
+}
+
+#cisco_logo {
+	padding-left: 100px;
+	width: 100px;
+	height: 100px;
+	float:left;
+}
+
+#office_logo {
+	padding-left: 100px;
+	width: 100px;
+	height: 100px;
+	float:left;
+}
+
+#visual_studio_logo {
+	padding-left: 100px;
+	width: 100px;
+	height: 100px;
+	float:left;
+}
+
+#visual_studio_code_logo {
+	padding-left: 100px;
+	width: 100px;
+	height: 100px;
+	float:left;
+}
+
+#sony_vegas_logo {
+	padding-left: 100px;
+	width: 100px;
+	height: 100px;
+	float:left;
+}
+
+#adobe_photoshop_logo {
+	padding-left: 100px;
+	width: 100px;
+	height: 100px;
+	float:left;
+}
+
+
+#python_logo {
+	padding-left: 50px;
+	width: 100px;
+	height: 100px;
+	float:left;
+}
+
+#c_logo {
+	padding-left: 50px;
+	width: 100px;
+	height: 100px;
+	float:left;
+}
+
+#cpp_logo {
+	padding-left: 50px;
+	width: 100px;
+	height: 100px;
+	float:left;
+}
+
+#javascript_logo {
+	padding-left: 50px;
+	width: 100px;
+	height: 100px;
+	float:left;
+}
+
+#html_logo {
+	padding-left: 50px;
+	width: 100px;
+	height: 100px;
+	float:left;
+}
+
+#php_logo {
+	padding-left: 50px;
+	width: 100px;
+	height: 100px;
+	float:left;
+}
+
+#java_logo {
+	padding-left: 50px;
+	width: 100px;
+	height: 100px;
+	float:left;
+}
+
+#languages_name {
+	font-family: "Trebuchet MS";
+	font-weight:bold;
+	font-size: 30px;
+	float:left;
+}
+
+.text_float2 {
+	position: relative;
+}
+
+.alert2 {
+  position: relative;
+  animation: flyup 1s;
+  animation-fill-mode: forwards;
+  bottom: 0px;
+}
+
+@keyframes flyup {
+  0% {
+  	top: 50px;
+    bottom: 0px;
+    color: #161616;
+  }
+  100% {
+  	top: 20px;
+    bottom: 40px;
+  }
+}

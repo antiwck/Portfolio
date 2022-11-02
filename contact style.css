@@ -1,0 +1,47 @@
+﻿#contact {
+	font-family: "Trebuchet MS";
+	font-weight:bold;
+	font-size: 30px;
+	float: right;
+	padding-top: 180px;
+	padding-right: 100px;
+}
+
+img {
+	width: 50px;
+	height: 50px;
+}
+
+.parent {
+  position: relative;
+  top: 0;
+  left: 0;
+}
+
+.back {
+  position: absolute;
+  top: 100px;
+  left: 30px;
+  width: 350px;
+  height: 300px;
+  background-color: #013F6A;
+}
+
+.back2 {
+  position: relative;
+  top: 320px;
+  left: 200px;
+  width: 200px;
+  height: 50px;
+  background-color: #013F6A;
+}
+
+.front {
+  position: absolute;
+  top: -290px;
+  left: -180px;
+  width: 340px;
+  height: 350px;
+  background-color: #FFF;
+}
+

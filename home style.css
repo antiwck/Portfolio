@@ -1,0 +1,57 @@
+﻿#personal_pic {
+	padding-top: 60px;
+	padding-bottom: 40px;
+	width: 450px;
+	height: 680px;
+}
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+#intro_phrase_left {
+	font-family: "Trebuchet MS";
+	font-weight:bold;
+	font-size: 20px;
+	text-align: center;
+	padding-right: 50px;
+	writing-mode: vertical-rl;
+	text-orientation: mixed; 
+	transform: rotate(0deg);
+}
+
+#intro_name_right {
+	font-family: "Trebuchet MS";
+	font-weight:bold;
+	font-size: 20px;
+	text-align: center;
+	padding-left: 50px;
+	writing-mode: vertical-rl;
+	text-orientation: mixed; 
+}
+
+.box {
+   display: flex;
+   align-items:center;
+   justify-content: center;
+}
+
+#intro_career {
+	font-family: "Trebuchet MS";
+	font-weight:bold;
+	font-size: 30px;
+	text-align: center;	
+	padding-top: 20px;
+}
+
+#intro_catch_phrase {
+	font-family: "Trebuchet MS";
+	font-weight:bold;
+	font-size: 20px;
+	text-align: center;	
+	padding-top: 20px;
+	padding-bottom: 20px;
+}

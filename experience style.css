@@ -1,0 +1,124 @@
+﻿#experience_container {
+	font-family: "Trebuchet MS";
+	font-weight:bold;
+	font-size: 30px;
+	text-align: center;
+	padding-top: 30px;
+	width: 1080px;
+	display: flex;
+	justify-content: center;
+}
+
+#work {
+	width: 520px;
+	display: absolute;
+	justify-content: center;
+	padding-right: 10px;
+}
+
+#work_title {
+	font-family: "Trebuchet MS";
+	font-weight:bold;
+	font-size: 20px;
+	padding-top: 10px;
+}
+
+#work_period {
+	font-family: "Trebuchet MS";
+	font-weight:bold;
+	font-size: 15px;	
+	padding-top: 10px;
+}
+
+#work_detail {
+	font-family: "Trebuchet MS";
+	font-weight:bold;
+	font-size: 17px;
+	display: absolute;
+	text-align: justify;
+	padding-left: 20px;
+	padding-right: 20px;
+	padding-top: 10px;
+}
+
+#work_border {
+	border-style: solid;
+	border-width: 1px;
+	border-color: #CECECE;
+	margin-bottom: 5px;
+}
+
+#projects {
+	width: 520px;
+	display: absolute;
+	justify-content: center;
+	padding-left: 10px;
+}
+
+#project_tile {
+	font-family: "Trebuchet MS";
+	font-weight:bold;
+	font-size: 20px;
+	padding-top: 10px;
+}
+
+#project_language {
+	font-family: "Trebuchet MS";
+	font-weight:bold;
+	font-size: 15px;	
+	padding-top: 10px;
+}
+
+#project_detail {
+	font-family: "Trebuchet MS";
+	font-weight:bold;
+	font-size: 17px;
+	display: absolute;
+	text-align: justify;
+	padding-left: 20px;
+	padding-right: 20px;
+	padding-top: 10px;
+}
+
+#project_border {
+	border-style: solid;
+	border-width: 1px;
+	border-color: #CECECE;
+	margin-bottom: 5px;
+}
+
+#left_slide {
+    position: relative;
+    left: -600px;
+    width: 520px;
+	display: absolute;
+    -webkit-animation: slide 0.5s forwards;
+    -webkit-animation-delay: 2s;
+    animation: slide 0.5s forwards;
+}
+
+#right_slide {
+    position: relative;
+    right: -600px;
+    width: 520px;
+	display: absolute;
+    -webkit-animation: slide2 0.5s forwards;
+    -webkit-animation-delay: 2s;
+    animation: slide2 0.5s forwards;
+}
+
+@-webkit-keyframes slide {
+    100% { left: 0; }
+}
+
+@keyframes slide {
+    100% { left: 0; }
+}
+
+@-webkit-keyframes slide2 {
+    100% { right: 0; }
+}
+
+@keyframes slide2 {
+    100% { right: 0; }
+}
