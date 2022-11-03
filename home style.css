@@ -1,8 +1,6 @@
-﻿#personal_pic {
+#personal_pic {
 	padding-top: 60px;
-	padding-bottom: 40px; 
-	margin-left: auto;
-  	margin-right: auto;
+	padding-bottom: 40px;
 	width: 450px;
 	height: 680px;
 }
@@ -39,6 +37,8 @@
    display: flex;
    align-items:center;
    justify-content: center;
+	margin-left: auto;
+	margin-right: auto;
 }
 
 #intro_career {
