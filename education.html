@@ -15,9 +15,10 @@ a:active {
 	color: #FFFFFF;
 }
 a:hover {
-	color: #D6D6D6;
+	color: #D6D6D6;  
 }
 </style>
+
 </head>
 
 <body>
@@ -30,7 +31,7 @@ a:hover {
 				<div id = "navigation"><a href="skill.html">SKILL</a></div>
 				<div id = "navigation"><a href="experience.html">EXPERIENCE</a></div>
 				<div id = "navigation"><a href="contact.html">CONTACT</a></div>
-				<div id="university_logo"><img src="assets/apu.png" alt="University logo" style="background-color:white"/></div>
+				<div id="university_logo"><img src="img/apu.png" alt="University logo" style="background-color:white"/></div>
 				<div id="education_detail">
 					<span style="font-size: 30px; color:#265DFF">Asia Pacific University of Technology and Innovation</span>
 					<li><b>Field</b>: Engineering</li>
@@ -38,106 +39,67 @@ a:hover {
 					<li><b>Grade</b>: 3.90</li>
 				</div>
 				<div style="padding-top:80px; padding-left: 60px; padding-right: 100px;">
-					<div class="dropdown">
-						<button onclick="myFunction()" class="dropbtn">Awards</button>
-						<div id="myDropdown" class="dropdown-content">
-						<a href="https://www.apu.edu.my/media/news/2698" style="color: black">
-							<li><b>Event</b>: Southeast Asia Programmable Logic<br/>&nbsp Controller Design Competition 2022</li>
-							<li><b>Placement</b>: 1<sup>st</sup> Runner Up</li>
-							<li><b>Link</b>: https://www.apu.edu.my/media/news/2698</li>
-						</a>
-						</div>
-					</div>
-					<div class="dropdown2" style="margin-left: 350px;">
-						<button onclick="myFunction2()" class="dropbtn2">Certificates</button>
-						<div id="myDropdown2" class="dropdown-content2">
-						<a href="https://github.com/antiwck/antiwck/blob/1f092ac91a0637b4b07ca805953d74a268653105/Certificates/CCNAv7%20Introduction%20to%20Networks.jpg"  style="color: black">
-							<li><b>Topic</b>: CCNAv7 Introduction to Networks</li>
-							<li><b>Certificate type</b>: Certificate of Completion</li>
-							<li><b>Institution</b>: Cisco Networking Academy</li>
-							<li><b>Date</b>: Arpil 2022</li>
-						</a>
-						<a href="https://github.com/antiwck/antiwck/blob/1f092ac91a0637b4b07ca805953d74a268653105/Certificates/MATLAB%20Workshop%202022%20Image%20Processing.jpg"  style="color: black">
-							<li><b>Topic</b>: MATLAB Workshop 2022: Image<br/>&nbsp Processing</li>
-							<li><b>Certificate type</b>: Certificate of Participation</li>
-							<li><b>Institution</b>: Asia Pacific University IMECHE SC</li>
-							<li><b>Date</b>: Arpil 2022</li>
-						</a>
-						<a href="https://github.com/antiwck/antiwck/blob/1f092ac91a0637b4b07ca805953d74a268653105/Certificates/MATLAB%20Onramp.jpg"  style="color: black">
-							<li><b>Topic</b>: MATLAB Onramp</li>
-							<li><b>Certificate type</b>: Certificate of Completion</li>
-							<li><b>Institution</b>: MathWorks</li>
-							<li><b>Date</b>: May 2022</li>
-						</a>
-						<a href="https://github.com/antiwck/antiwck/blob/1f092ac91a0637b4b07ca805953d74a268653105/Certificates/Certificate%20of%20Excellence.jpg"  style="color: black">
-							<li><b>Topic</b>: SEAR IMechE PLC Design<br/>&nbsp Competition 2022</li>
-							<li><b>Certificate type</b>: Certificate of Excellence</li>
-							<li><b>Institution</b>: IMechE (SEAR)</li>
-							<li><b>Date</b>: July 2022</li>
-						</a>
-						<a href="https://github.com/antiwck/antiwck/blob/1f092ac91a0637b4b07ca805953d74a268653105/Certificates/Intel%20Participation.jpg"  style="color: black">
-							<li><b>Topic</b>: Intel Case Study Challenge</li>
-							<li><b>Certificate type</b>: Certificate of Participation</li>
-							<li><b>Institution</b>: Young Malaysian Engineers</li>
-							<li><b>Date</b>: July 2022</li>
-						</a>
-						<a href="https://github.com/antiwck/antiwck/blob/1f092ac91a0637b4b07ca805953d74a268653105/Certificates/AppSheet%20Participation%20Certification.jpg"  style="color: black">
-							<li><b>Topic</b>: Appsheet Hackathon Competition<br/>&nbsp 2023</li>
-							<li><b>Certificate type</b>: Certificate of Participation</li>
-							<li><b>Institution</b>: Awantec Systems</li>
-							<li><b>Date</b>: February 2023</li>
-						</a>
-						<a href="https://github.com/antiwck/antiwck/blob/2d569e55fba3ca033fa0c3263eecb1e9ef341eb3/Certificates/AWS%20Deepracer%20Participation%20Certificate.jpg"  style="color: black">
-							<li><b>Topic</b>: AWS Deepracer Competition</li>
-							<li><b>Certificate type</b>: Certificate of Participation</li>
-							<li><b>Institution</b>: Asia Pacific University</li>
-							<li><b>Date</b>: April 2023</li>
-						</a>
-							<a href="https://github.com/antiwck/antiwck/blob/2d569e55fba3ca033fa0c3263eecb1e9ef341eb3/Certificates/Certificate%20of%20Participation%20PLC.jpg"  style="color: black">
-							<li><b>Topic</b>: Programmable Logic Controller<br/>&nbsp (PLC) Design Competition SEA 2023</li>
-							<li><b>Certificate type</b>: Certificate of Participation</li>
-							<li><b>Institution</b>: IMechE (SEAR)</li>
-							<li><b>Date</b>: June 2023</li>
-						</a>
-
-						</div>
+					<div id="certificate-table">
+						<table>
+							<tr>
+								<th>Items</th>
+								<th>Certificate Type</th>
+								<th>Institution</th>
+								<th>Date</th>
+							</tr>
+							<tr>
+								<td><a href="https://github.com/antiwck/antiwck/blob/1f092ac91a0637b4b07ca805953d74a268653105/Certificates/CCNAv7%20Introduction%20to%20Networks.jpg">CCNAv7 Introduction to Networks</a></td>
+								<td>Certificate of Completion</td>
+								<td>Cisco Networking Academy</td>
+								<td>April 2022</td>
+							</tr>
+							<tr>
+								<td><a href="https://github.com/antiwck/antiwck/blob/1f092ac91a0637b4b07ca805953d74a268653105/Certificates/MATLAB%20Workshop%202022%20Image%20Processing.jpg">MATLAB Workshop 2022: Image Processing</a></td>
+								<td>Certificate of Participation</td>
+								<td>Asia Pacific University IMECHE SC</td>
+								<td>April 2022</td>
+							</tr>
+							<tr>
+								<td><a href="https://github.com/antiwck/antiwck/blob/1f092ac91a0637b4b07ca805953d74a268653105/Certificates/MATLAB%20Onramp.jpg">MATLAB Onramp</a></td>
+								<td>Certificate of Completion</td>
+								<td>MathWorks</td>
+								<td>May 2022</td>
+							</tr>
+							<tr>
+								<td><a href="https://github.com/antiwck/antiwck/blob/1f092ac91a0637b4b07ca805953d74a268653105/Certificates/Certificate%20of%20Excellence.jpg" >Certificate of Excellence (PLC Design Competition)</a></td>
+								<td>Certificate of Excellence</td>
+								<td>IMechE (SEAR)</td>
+								<td>July 2022</td>
+							</tr>
+							<tr>
+								<td><a href="https://github.com/antiwck/antiwck/blob/1f092ac91a0637b4b07ca805953d74a268653105/Certificates/Intel%20Participation.jpg">Certificate of Participation (Intel Case Study)</a></td>
+								<td>Certificate of Participation</td>
+								<td>Young Malaysian Engineers</td>
+								<td>Dec 2022</td>
+							</tr>
+							<tr>
+								<td><a href="https://github.com/antiwck/antiwck/blob/1f092ac91a0637b4b07ca805953d74a268653105/Certificates/AppSheet%20Participation%20Certification.jpg">Certificate of Participation (Google AppSheet)</a></td>
+								<td>Certificate of Participation</td>
+								<td>Awantec Systems</td>
+								<td>Feb 2022</td>
+							</tr>
+							<tr>
+								<td><a href="https://github.com/antiwck/antiwck/blob/2d569e55fba3ca033fa0c3263eecb1e9ef341eb3/Certificates/AWS%20Deepracer%20Participation%20Certificate.jpg">Certificate of Participation (AWS DeepRacer Competition)</a></td>
+								<td>Certificate of Participation</td>
+								<td>Asia Pacific University</td>
+								<td>April 2023</td>
+							</tr>
+							<tr>
+								<td><a href="https://github.com/antiwck/antiwck/blob/2d569e55fba3ca033fa0c3263eecb1e9ef341eb3/Certificates/Certificate%20of%20Participation%20PLC.jpg">Certificate of Participation (PLC Design Competition)</a></td>
+								<td>Certificate of Participation</td>
+								<td>IMechE (SEAR)</td>
+								<td>June 2023</td>
+							</tr>
+						</table>
 					</div>
 				</div>
 			</div>
 		</div>
 	</div>
-	<script>
-		/* When the user clicks on the button, 
-		toggle between hiding and showing the dropdown content */
-		function myFunction() {
-		  document.getElementById("myDropdown").classList.toggle("show");
-		}
-		function myFunction2() {
-			document.getElementById("myDropdown2").classList.toggle("show2");
-		}
-		// Close the dropdown if the user clicks outside of it
-		window.onclick = function(event) {
-		  if (!event.target.matches('.dropbtn')) {
-		    var dropdowns = document.getElementsByClassName("dropdown-content");
-		    var i;
-		    for (i = 0; i < dropdowns.length; i++) {
-		      var openDropdown = dropdowns[i];
-		      if (openDropdown.classList.contains('show')) {
-		        openDropdown.classList.remove('show');
-		      }
-		    }
-		  }
-		  if (!event.target.matches('.dropbtn2')) {
-		    var dropdowns2 = document.getElementsByClassName("dropdown-content2");
-		    var j;
-		    for (j = 0; j < dropdowns2.length; j++) {
-		      var openDropdown2 = dropdowns2[j];
-		      if (openDropdown2.classList.contains('show2')) {
-		        openDropdown2.classList.remove('show2');
-		      }
-		    }
-		  }
-		}					
-	</script>
 </body>
 </html>
