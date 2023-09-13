@@ -1,4 +1,4 @@
-﻿#logo_border {
+#logo_border {
 	padding-top: 10px;
 	width: 1080px;
 }
@@ -11,131 +11,9 @@
 	padding-bottom: 50px;
 }
 
-#matlab_logo {
-	padding-left: 100px;
-	width: 100px;
-	height: 100px;
-	float:left;
-}
-
-#labview_logo {
-	padding-left: 100px;
-	width: 100px;
-	height: 100px;
-	float:left;
-}
-
-#ltspice_logo {
-	padding-left: 100px;
-	width: 100px;
-	height: 100px;
-	float:left;
-}
-
-#solidworks_logo {
-	padding-left: 100px;
-	width: 100px;
-	height: 100px;
-	float:left;
-}
-
-#cisco_logo {
-	padding-left: 100px;
-	width: 100px;
-	height: 100px;
-	float:left;
-}
-
-#office_logo {
-	padding-left: 100px;
-	width: 100px;
-	height: 100px;
-	float:left;
-}
-
-#visual_studio_logo {
-	padding-left: 100px;
-	width: 100px;
-	height: 100px;
-	float:left;
-}
-
-#visual_studio_code_logo {
-	padding-left: 100px;
-	width: 100px;
-	height: 100px;
-	float:left;
-}
-
-#sony_vegas_logo {
-	padding-left: 100px;
-	width: 100px;
-	height: 100px;
-	float:left;
-}
-
-#adobe_photoshop_logo {
-	padding-left: 100px;
-	width: 100px;
-	height: 100px;
-	float:left;
-}
-
-
-#python_logo {
-	padding-left: 50px;
-	width: 100px;
-	height: 100px;
-	float:left;
-}
-
-#c_logo {
-	padding-left: 50px;
-	width: 100px;
-	height: 100px;
-	float:left;
-}
-
-#cpp_logo {
-	padding-left: 50px;
-	width: 100px;
-	height: 100px;
-	float:left;
-}
-
-#javascript_logo {
-	padding-left: 50px;
-	width: 100px;
-	height: 100px;
-	float:left;
-}
-
-#html_logo {
-	padding-left: 50px;
-	width: 100px;
-	height: 100px;
-	float:left;
-}
-
-#php_logo {
-	padding-left: 50px;
-	width: 100px;
-	height: 100px;
-	float:left;
-}
-
-#java_logo {
-	padding-left: 50px;
-	width: 100px;
-	height: 100px;
-	float:left;
-}
-
-#languages_name {
-	font-family: "Trebuchet MS";
-	font-weight:bold;
-	font-size: 30px;
-	float:left;
+.logo {
+    width: 100px;
+    height: 100px;
 }
 
 .text_float2 {
@@ -159,4 +37,64 @@
   	top: 20px;
     bottom: 40px;
   }
+}
+
+
+.software-row {
+    display: flex;
+    justify-content: space-between;    
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.software-item {
+    margin: 10px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;    
+    padding: 0px 10px 0px 10px;
+    flex-basis: calc(20% - 50px); /* 20% width for each item with some spacing adjustment*/
+    max-width: calc(20% - 50px); /* Set a max width to prevent items from getting too wide*/
+    transition: transform 0.3s ease-in-out; /* Add a transform transition */
+}
+
+.software-item:hover {
+    transform: scale(1.20); /* Enlarge the item by 5% on hover */
+}
+
+.software_name {
+    margin-top: 5px;
+    font-family: "Trebuchet MS";
+    font-weight: bold;
+    font-size: 30px;
+}
+
+.language-row {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.language-item {
+    margin: 10px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0px 25px 0px 25px;
+    transition: transform 0.3s ease-in-out; /* Add a transform transition */
+
+}
+
+.language-item:hover {
+    transform: scale(1.20); /* Enlarge the item by 5% on hover */
+}
+
+
+.languages_name {
+    margin-top: 5px;
+    font-family: "Trebuchet MS";
+    font-weight: bold;
+    font-size: 30px;
 }
