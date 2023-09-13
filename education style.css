@@ -1,4 +1,4 @@
-	#university_logo {
+#university_logo {
 	position:static;
 	padding-top: 100px;
 	padding-right: 220px;
@@ -17,16 +17,14 @@
 
 table {
     width: 100%;
-    border-collapse: collapse;
+    border-collapse: separate;
+    border-spacing: 0; /* Ensures no spacing between cells */
     margin-top: 20px;
     margin-bottom: 20px;
 }
 
-table, th, td {
-    border: 1px solid #ddd;
-}
-
 th, td {
+    border: 1px solid #ddd; /* Add border to table cells */
     padding: 10px;
     text-align: left;
 }
@@ -37,5 +35,5 @@ th {
 }
 
 tr:hover td:first-child {
-    background-color: #3da8cc; /* Change to the background color you prefer */
+    background-color: #3da8cc;
 }
