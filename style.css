@@ -87,7 +87,10 @@ b {
   animation-fill-mode: forwards;
   bottom: 0px;
 }
-
+td {
+    border: 1px solid #fff;
+    padding: 20px;
+}
 @keyframes flyup {
   0% {
   	top: 430px;
