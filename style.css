@@ -4,6 +4,8 @@
 	background-repeat: no-repeat;
 	background-attachment: fixed;
 	color: white;
+        max-width: 1200px;
+    margin: auto;
 }
 
 #wrapper{
