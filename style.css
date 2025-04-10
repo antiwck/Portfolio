@@ -91,6 +91,9 @@ td {
     border: 1px solid #fff;
     padding: 20px;
 }
+table {
+    margin: 50px auto
+}
 @keyframes flyup {
   0% {
   	top: 430px;
