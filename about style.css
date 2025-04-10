@@ -21,10 +21,18 @@
 	padding-left: 50px;
 }
 
+#content-wrapper {
+	width: 100%;
+	text-align: center;
+	margin-top: 30px; /* Optional spacing from menu */
+}
+
 #small_about {
 	font-family: "Trebuchet MS";
 	font-weight:bold;
 	font-size: 25px;
+	display: inline-block;
+	text-align: left; /* Keeps your text left-aligned within centered block */
 }
 
 #detail {
