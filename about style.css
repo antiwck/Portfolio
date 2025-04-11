@@ -153,6 +153,13 @@ width: 260px;
 	}
 }
 
+#about-container {
+  width: 80%; /* Or 100% if you prefer full width */
+  margin: 0 auto; /* Center horizontally if needed */
+  text-align: left; /* Align text to the left */
+  padding-left: 10px; /* Optional: small indent */
+}
+
 @keyframes animationWave{
 	0% {
 	    opacity: 0;
