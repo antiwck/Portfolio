@@ -89,7 +89,7 @@ b {
 }
 
 td {
-     	border: 1px solid #000;
+     	border: 1px  solid white;
       	vertical-align: top;
       	padding: 10px;
 }
@@ -98,6 +98,7 @@ table {
       	border-collapse: collapse;
       	width: 80%;
 	table-layout: auto;
+	border-spacing: 5px;
 }
 
 .cell-header {
