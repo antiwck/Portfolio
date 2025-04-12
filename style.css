@@ -87,29 +87,31 @@ b {
   animation-fill-mode: forwards;
   bottom: 0px;
 }
-td {
-      border: 1px solid #000;
-      vertical-align: top;
-      width: 50%;
-      height: 200px;
-      padding: 10px;
-    }
-table {
-      border-collapse: collapse;
-      width: 80%;
-      table-layout: fixed;
-}
-.cell-header {
-      text-align: center;
-      font-weight: bold;
-      text-decoration: underline;
-      margin-bottom: 8px;
-    }
 
-    .cell-text {
-      text-align: left;
-      margin-top: 5px;
-    }
+td {
+     	border: 1px solid #000;
+      	vertical-align: top;
+      	padding: 10px;
+}
+
+table {
+      	border-collapse: collapse;
+      	width: 80%;
+	table-layout: auto;
+}
+
+.cell-header {
+	text-align: center;
+      	font-weight: bold;
+      	text-decoration: underline;
+      	margin-bottom: 8px;
+}
+
+.cell-text {
+	text-align: left;
+	margin-top: 5px;
+}
+
 @keyframes flyup {
   0% {
   	top: 430px;
