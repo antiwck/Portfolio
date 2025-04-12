@@ -58,16 +58,3 @@
 	padding-bottom: 20px;
 }
 
-td p.cell-header {
-  text-align: center;       /* Centers the header text */
-  text-decoration: underline;  /* Underlines the header text */
-  margin: 0;                /* Removes extra spacing */
-  font-weight: bold;        /* Optional: makes the header stand out */
-}
-
-td p.cell-text {
-  text-align: left;         /* Left aligns the remaining text */
-  margin: 5px 0 0 0;        /* Adds a small gap from the header */
-  font-size: 16px;          /* Adjust as needed */
-}
-
